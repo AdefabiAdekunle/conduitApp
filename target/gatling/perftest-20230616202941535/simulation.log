@@ -1,0 +1,13 @@
+RUN	performance.PerfTest	perftest	1686947381535	 	3.7.4
+USER	create and delete article	START	1686947381569
+USER	create and delete article	START	1686947385565
+USER	create and delete article	START	1686947386564
+REQUEST		Title request: title21	1686947381665	1686947381805	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1686947386819	1686947386934	OK	 
+USER	create and delete article	END	1686947386938
+REQUEST		Title request: title22	1686947385607	1686947385719	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1686947390737	1686947390981	OK	 
+USER	create and delete article	END	1686947390999
+REQUEST		Title request: title23	1686947386592	1686947386716	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1686947391727	1686947391855	OK	 
+USER	create and delete article	END	1686947391857

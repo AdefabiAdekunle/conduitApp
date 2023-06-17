@@ -1,0 +1,23 @@
+15:29:39.682 [main] INFO  i.g.c.config.GatlingConfiguration$ - Gatling will try to load 'gatling.conf' config file as ClassLoader resource.
+15:29:39.855 [GatlingSystem-akka.actor.default-dispatcher-6] INFO  akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+15:29:40.802 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:29:41.135 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:29:41.334 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:29:41.558 [GatlingSystem-akka.actor.default-dispatcher-6] INFO  i.g.c.stats.writer.ConsoleDataWriter - Initializing
+15:29:41.558 [GatlingSystem-akka.actor.default-dispatcher-8] INFO  i.g.c.stats.writer.LogFileDataWriter - Initializing
+15:29:41.562 [GatlingSystem-akka.actor.default-dispatcher-8] INFO  i.g.c.stats.writer.LogFileDataWriter - Initialized
+15:29:41.562 [GatlingSystem-akka.actor.default-dispatcher-6] INFO  i.g.c.stats.writer.ConsoleDataWriter - Initialized
+15:29:41.595 [GatlingSystem-akka.actor.default-dispatcher-7] INFO  com.intuit.karate - karate.env system property was: null 
+15:29:45.577 [GatlingSystem-akka.actor.default-dispatcher-10] INFO  i.g.core.controller.inject.Injector - Scenario create and delete article has finished injecting
+15:29:45.578 [GatlingSystem-akka.actor.default-dispatcher-10] INFO  i.g.core.controller.inject.Injector - Injecting is done
+15:29:45.587 [GatlingSystem-akka.actor.default-dispatcher-8] INFO  com.intuit.karate - karate.env system property was: null 
+15:29:46.579 [GatlingSystem-akka.actor.default-dispatcher-6] INFO  com.intuit.karate - karate.env system property was: null 
+15:29:51.857 [GatlingSystem-akka.actor.default-dispatcher-6] INFO  i.g.core.controller.inject.Injector - All users of scenario create and delete article are stopped
+15:29:51.860 [GatlingSystem-akka.actor.default-dispatcher-6] INFO  i.g.core.controller.inject.Injector - Stopping
+15:29:51.861 [GatlingSystem-akka.actor.default-dispatcher-9] INFO  i.gatling.core.controller.Controller - Injector has stopped, initiating graceful stop
+15:29:51.896 [GatlingSystem-akka.actor.default-dispatcher-8] INFO  akka.actor.CoordinatedShutdown - Running CoordinatedShutdown with reason [ActorSystemTerminateReason]
+15:29:51.908 [main] INFO  i.gatling.charts.stats.LogFileReader - Collected List(/Users/adekunleadefabi/Documents/karate/conduitApp/target/gatling/perftest-20230616202941535/simulation.log) from perftest-20230616202941535
+15:29:51.912 [main] INFO  i.gatling.charts.stats.LogFileReader - First pass
+15:29:51.915 [main] INFO  i.gatling.charts.stats.LogFileReader - First pass done: read 13 lines
+15:29:51.918 [main] INFO  i.gatling.charts.stats.LogFileReader - Second pass
+15:29:51.925 [main] INFO  i.gatling.charts.stats.LogFileReader - Second pass: read 13 lines

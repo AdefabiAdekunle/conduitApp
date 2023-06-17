@@ -1,0 +1,11 @@
+version: "3.8"
+services: 
+    karate-tests: #since we have one image or project and service
+        image: karate-tests
+        build: 
+            context: .
+            dockerfile: ./Dockerfile
+        volumes: 
+            - ./target:/usr/src/app/target #we need to copy the tarfer folder result to our host machine
+            - ~/.m2:/root/.m2 #we need to copy dependexy from our host machine to our container
+        command: mvn test
